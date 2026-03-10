@@ -176,7 +176,7 @@ Deriva del uso de sillas no ergonómicas, sentarse en el borde del asiento o no 
 
 </div>
 
-<img src="https://images.unsplash.com/photo-1522881115286-9b5ca3157580?q=80&w=800&auto=format&fit=crop" class="img-estilo" alt="Primer plano de manos tecleando">
+<img src="tecleo.jpg" class="img-estilo" alt="Primer plano de manos tecleando">
 
 </div>
 
