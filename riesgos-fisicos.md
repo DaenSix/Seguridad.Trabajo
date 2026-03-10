@@ -145,8 +145,6 @@ title: Riesgos Físicos y Ergonómicos
 
 Un puesto informático mal diseñado obliga al trabajador a adoptar posturas forzadas que, mantenidas durante 8 horas al día, acaban provocando lesiones crónicas.
 
-<img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=800&auto=format&fit=crop" class="img-estilo" alt="Persona trabajando en un escritorio con ordenador">
-
 </div>
 
 </div>
