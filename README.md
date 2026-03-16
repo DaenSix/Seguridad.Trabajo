@@ -24,6 +24,8 @@ Este trabajo cumple con el requisito de trabajo colaborativo y ha sido desarroll
 * **[Daniel (@dmarsue242)](https://github.com/dmarsue242):**
   * Desarrollo del **Punto 3:** Riesgos psicosociales (Estrés, Burnout).
   * Desarrollo del **Punto 4:** Medidas de prevención laboral.
+* **[Miguel (@miguelsimo04)](https://github.com/miguelsimo04):**
+  * Desarrollo del **Punto 4:** Medidas de prevención laboral.
 * **Trabajo conjunto:** Recopilación del apartado 5 (Referencias), auditoría visual y despliegue final en GitHub Pages.
 
 ---
