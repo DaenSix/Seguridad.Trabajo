@@ -82,6 +82,9 @@ title: Referencias y Autores
   .borde-daniel { border-top: 5px solid #f57c00; }
   .borde-daniel h3 { color: #f57c00; }
 
+  .borde-miguel { border-top: 5px solid #8a36d2; }
+  .borde-miguel h3 { color: #8a36d2; }
+
   /* --- BOTONES DE NAVEGACIÓN INFERIOR --- */
   .nav-botones {
     display: flex;
@@ -160,8 +163,12 @@ Este proyecto ha sido desarrollado cumpliendo el requisito de trabajo colaborati
 <div class="tarjeta-autor borde-daniel" markdown="1">
 ### Daniel (@dmarsue242)
 * Investigación y redacción del **Punto 3** (Riesgos psicosociales: Estrés, Burnout).
+* Revisión de los criterios de la rúbrica y aportación de soluciones a fallos.
+</div>
+
+<div class="tarjeta-autor borde-miguel" markdown="1">
+### Miguel (@miguelsimo04)
 * Investigación y redacción del **Punto 4** (Medidas de prevención y salud laboral).
-* Revisión de los criterios de la rúbrica y aportación de soluciones ergonómicas.
 </div>
 
 </div>
