@@ -8,10 +8,30 @@ title: Medidas de Prevención
     0% { opacity: 0; transform: translateY(20px); }
     100% { opacity: 1; transform: translateY(0); }
   }
-  .retraso-1 { animation: fadeInUp 0.8s ease-out forwards; }
-  .retraso-2 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.2s forwards; }
-  .retraso-3 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.4s forwards; }
-  .retraso-4 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.6s forwards; }
+
+  .retraso-1, .retraso-2, .retraso-3, .retraso-4 {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  .retraso-2 { animation-delay: 0.2s; }
+  .retraso-3 { animation-delay: 0.4s; }
+  .retraso-4 { animation-delay: 0.6s; }
+
+  h1, h2, h3 {
+    color: #1f2937;
+    margin-top: 20px;
+  }
+
+  h1 {
+    border-bottom: 3px solid #28a745;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    border-left: 5px solid #28a745;
+    padding-left: 10px;
+  }
 
   .mini-indice {
     background: #ffffff;
@@ -54,7 +74,9 @@ title: Medidas de Prevención
     border-top: 5px solid #28a745;
   }
 
-  .seccion-contenido { margin-bottom: 50px; }
+  .seccion-contenido {
+    margin-bottom: 60px;
+  }
 
   .destacado-texto {
     background-color: #fff3cd;
@@ -79,7 +101,9 @@ title: Medidas de Prevención
   </ul>
 </div>
 
-<div id="generales" class="seccion-contenido">
+</div>
+
+<div id="generales" class="seccion-contenido retraso-1">
 
 ## 4.1. Prevención General
 
@@ -87,18 +111,28 @@ title: Medidas de Prevención
 Las medidas de prevención ayudan a evitar accidentes en el entorno informático y mejoran la seguridad del trabajador.
 </div>
 
+<p>
+La prevención general incluye todas aquellas acciones básicas que garantizan un uso seguro de los equipos informáticos. 
+Estas medidas son esenciales tanto en oficinas como en entornos educativos.
+</p>
+
 <ul>
-<li>Mantener el espacio ordenado.</li>
-<li>Revisar cables y enchufes.</li>
-<li>No sobrecargar regletas.</li>
-<li>Apagar los equipos correctamente.</li>
+<li>Mantener el espacio ordenado y limpio.</li>
+<li>Revisar periódicamente cables y enchufes.</li>
+<li>No sobrecargar regletas eléctricas.</li>
+<li>Apagar correctamente los equipos.</li>
+<li>Evitar líquidos cerca del ordenador.</li>
 </ul>
+
+<p>
+Aplicar estas normas reduce significativamente el riesgo de accidentes eléctricos y fallos en los dispositivos.
+</p>
 
 <img src="imagenes/foto1.jpg" class="img-estilo">
 
 </div>
 
-<div id="ergonomia" class="retraso-2 seccion-contenido">
+<div id="ergonomia" class="seccion-contenido retraso-2">
 
 ## 4.2. Prevención Ergonómica
 
@@ -106,57 +140,83 @@ Las medidas de prevención ayudan a evitar accidentes en el entorno informático
 💡 Una buena postura evita dolores y lesiones.
 </div>
 
+<p>
+La ergonomía estudia cómo adaptar el entorno de trabajo a la persona para evitar problemas físicos como dolores de espalda, cuello o fatiga visual.
+</p>
+
 <ul>
 <li>Pantalla a la altura de los ojos.</li>
-<li>Espalda recta.</li>
-<li>Brazos en ángulo de 90°.</li>
-<li>Descansos frecuentes.</li>
+<li>Espalda recta y apoyada en la silla.</li>
+<li>Brazos formando un ángulo de 90°.</li>
+<li>Pies apoyados en el suelo.</li>
+<li>Realizar descansos cada 45-60 minutos.</li>
 </ul>
+
+<p>
+También es recomendable utilizar sillas ergonómicas y ajustar la iluminación para evitar reflejos en la pantalla.
+</p>
 
 <img src="imagenes/foto2.jpg" class="img-estilo">
 
 </div>
 
-<div id="ambiente" class="retraso-3 seccion-contenido">
+<div id="ambiente" class="seccion-contenido retraso-3">
 
 ## 4.3. Prevención Ambiental
+
+<p>
+El entorno físico influye directamente en la salud y el rendimiento del trabajador. Factores como la luz, la temperatura o el ruido deben estar controlados.
+</p>
 
 <div class="grid-detalles">
 
 <div class="tarjeta-detalle">
 <h3>💡 Iluminación</h3>
-Evitar reflejos y usar luz natural.
+Evitar reflejos en la pantalla y aprovechar la luz natural.
 </div>
 
 <div class="tarjeta-detalle">
 <h3>🌡️ Temperatura</h3>
-Mantener entre 20ºC y 26ºC.
+Mantener entre 20ºC y 26ºC para mayor confort.
 </div>
 
 <div class="tarjeta-detalle">
 <h3>🔊 Ruido</h3>
-Reducir sonidos innecesarios.
+Reducir sonidos innecesarios para mejorar la concentración.
 </div>
 
 </div>
+
+<p>
+Un ambiente adecuado mejora la productividad y reduce el cansancio mental.
+</p>
 
 <img src="imagenes/foto3.jpg" class="img-estilo">
 
 </div>
 
-<div id="psico" class="retraso-4 seccion-contenido">
+<div id="psico" class="seccion-contenido retraso-4">
 
 ## 4.4. Prevención Psicosocial
- 
+
+<p>
+La prevención psicosocial se centra en el bienestar mental del trabajador. Un entorno laboral saludable evita problemas como el estrés o la ansiedad.
+</p>
+
 <ul>
-<li>Evitar el estrés.</li>
-<li>Organizar el trabajo.</li>
+<li>Evitar el exceso de carga de trabajo.</li>
+<li>Organizar tareas y tiempos.</li>
 <li>Fomentar el trabajo en equipo.</li>
+<li>Promover descansos y desconexión digital.</li>
 </ul>
 
 <div class="destacado-texto">
-⚠️ Un mal ambiente laboral afecta a la salud.
+⚠️ Un mal ambiente laboral afecta a la salud física y mental.
 </div>
+
+<p>
+Una buena comunicación y un ambiente positivo son claves para mantener la motivación y el bienestar.
+</p>
 
 <img src="imagenes/foto4.jpg" class="img-estilo">
 
