@@ -1,0 +1,180 @@
+---
+layout: default
+title: Medidas de Prevención
+---
+
+<style>
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .retraso-1 { animation: fadeInUp 0.8s ease-out forwards; }
+  .retraso-2 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.2s forwards; }
+  .retraso-3 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.4s forwards; }
+  .retraso-4 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.6s forwards; }
+
+  .mini-indice {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-left: 5px solid #28a745;
+  }
+
+  .mini-indice h4 { margin-top: 0; }
+  .mini-indice ul { list-style: none; padding-left: 0; }
+  .mini-indice li { margin: 8px 0; }
+
+  .caja-verde {
+    background: linear-gradient(135deg, #e6ffed 0%, #c3f0ca 100%);
+    border-left: 6px solid #28a745;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+  }
+
+  .img-estilo {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+
+  .grid-detalles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+  }
+
+  .tarjeta-detalle {
+    background: #ffffff;
+    border: 1px solid #d1d5da;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 5px solid #28a745;
+  }
+
+  .seccion-contenido { margin-bottom: 50px; }
+
+  .destacado-texto {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #ffc107;
+    margin: 20px 0;
+  }
+</style>
+
+<div markdown="1">
+
+<div class="retraso-1" markdown="1">
+
+# 6. Medidas de Prevención en Entornos Informáticos
+
+<div class="mini-indice">
+  <h4>Navegación rápida:</h4>
+  <ul>
+    <li><a href="#generales">6.1. Medidas Generales</a></li>
+    <li><a href="#ergonomia">6.2. Prevención Ergonómica</a></li>
+    <li><a href="#ambiente">6.3. Condiciones Ambientales</a></li>
+    <li><a href="#psico">6.4. Bienestar Psicosocial</a></li>
+  </ul>
+</div>
+
+<div id="generales" class="seccion-contenido" markdown="1">
+
+## 6.1. Medidas Generales de Seguridad
+
+<div class="caja-verde">
+  La prevención en entornos informáticos consiste en aplicar normas básicas que reduzcan riesgos y mejoren la seguridad del trabajador en su día a día.
+</div>
+
+**Acciones fundamentales:**
+* Mantener el espacio de trabajo ordenado y libre de obstáculos.
+* Revisar el estado de cables y enchufes regularmente.
+* No sobrecargar regletas ni conexiones eléctricas.
+* Apagar correctamente los equipos al finalizar la jornada.
+* Conocer las salidas de emergencia.
+
+<img src="imagenes/foto1.jpg" class="img-estilo">
+
+</div>
+
+</div>
+
+<div id="ergonomia" class="retraso-2 seccion-contenido" markdown="1">
+
+## 6.2. Prevención Ergonómica
+
+El uso prolongado de ordenadores puede provocar lesiones si no se mantiene una postura adecuada.
+
+<div class="destacado-texto">
+  💡 Ajustar correctamente la silla, pantalla y teclado reduce dolores de espalda y fatiga.
+</div>
+
+* Pantalla a la altura de los ojos.  
+* Espalda recta y apoyada.  
+* Brazos en ángulo de 90°.  
+* Descansos cada cierto tiempo.
+
+<img src="imagenes/foto2.jpg" class="img-estilo">
+
+</div>
+
+<div id="ambiente" class="retraso-3 seccion-contenido" markdown="1">
+
+## 6.3. Condiciones Ambientales Adecuadas
+
+<div class="grid-detalles" markdown="1">
+
+<div class="tarjeta-detalle" markdown="1">
+### 💡 Iluminación
+Evitar reflejos en la pantalla y usar luz natural siempre que sea posible.
+</div>
+
+<div class="tarjeta-detalle" markdown="1">
+### 🌡️ Temperatura
+Mantener el entorno entre 20ºC y 26ºC para mayor comodidad.
+</div>
+
+<div class="tarjeta-detalle" markdown="1">
+### 🔊 Ruido
+Reducir sonidos innecesarios para mejorar la concentración.
+</div>
+
+</div>
+
+<img src="imagenes/foto3.jpg" class="img-estilo">
+
+</div>
+
+<div id="psico" class="retraso-4 seccion-contenido" markdown="1">
+
+## 6.4. Bienestar Psicosocial
+
+El entorno laboral también afecta a la salud mental.
+
+* Evitar el estrés mediante organización del trabajo.  
+* Fomentar el trabajo en equipo.  
+* Alternar tareas para evitar monotonía.  
+
+<div class="destacado-texto">
+  ⚠️ Un ambiente laboral negativo puede reducir el rendimiento y afectar a la salud.
+</div>
+
+<img src="imagenes/foto4.jpg" class="img-estilo">
+
+</div>
+
+---
+
+## 📚 Referencias
+
+- Ley de Prevención de Riesgos Laborales  
+- Guías de seguridad en oficinas  
+
+</div>
