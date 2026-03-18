@@ -4,21 +4,88 @@ title: Medidas de Prevención
 ---
 
 <style>
-  body { font-family: Arial, sans-serif; color: #1f2937; line-height: 1.6; }
-  h1 { border-bottom: 3px solid #28a745; padding-bottom: 10px; }
-  h2 { border-left: 5px solid #28a745; padding-left: 10px; margin-top: 40px; }
-  .mini-indice { background: white; padding: 20px; border-radius: 12px; margin-bottom: 30px; border-left: 5px solid #28a745; }
-  .caja-verde { background: #e6ffed; padding: 20px; border-left: 6px solid #28a745; border-radius: 10px; margin: 20px 0; }
-  .destacado-texto { background: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; border-radius: 6px; margin: 20px 0; }
-  .grid-detalles { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
-  .tarjeta-detalle { background: white; padding: 20px; border-radius: 10px; border-top: 5px solid #28a745; }
-  img { display: block; margin: 30px auto; max-width: 100%; border-radius: 12px; }
+  /* --- ANIMACIONES EN CASCADA --- */
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .retraso-1 { animation: fadeInUp 0.8s ease-out forwards; }
+  .retraso-2 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.2s forwards; }
+  .retraso-3 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.4s forwards; }
+  .retraso-4 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.6s forwards; }
+
+  /* --- MINI ÍNDICE INTERNO --- */
+  .mini-indice {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-left: 5px solid #28a745;
+  }
+  .mini-indice h4 { margin-top: 0; color: #24292e; font-size: 1.2em; }
+  .mini-indice ul { list-style: none; padding-left: 0; }
+  .mini-indice li { margin: 8px 0; }
+  .mini-indice a { color: #28a745; text-decoration: none; font-weight: 500; }
+  .mini-indice a:hover { text-decoration: underline; color: #586069; }
+
+  /* --- CAJA TEMÁTICA VERDE --- */
+  .caja-verde {
+    background: linear-gradient(135deg, #e6ffed 0%, #c3f0ca 100%);
+    border-left: 6px solid #28a745;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    line-height: 1.7;
+    font-size: 1.1em;
+    color: #0c2d48;
+  }
+
+  /* --- ESTILO DE IMÁGENES --- */
+  .img-estilo {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* --- GRID DE TARJETAS --- */
+  .grid-detalles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+  }
+  .tarjeta-detalle {
+    background: #ffffff;
+    border: 1px solid #d1d5da;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 5px solid #28a745;
+  }
+  .tarjeta-detalle h3 { margin-top: 0; color: #28a745; }
+
+  /* --- SECCIONES DE CONTENIDO --- */
+  .seccion-contenido { margin-bottom: 50px; }
+  .destacado-texto {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #ffc107;
+    margin: 20px 0;
+    font-style: italic;
+  }
 </style>
+
+<div class="retraso-1" markdown="1">
 
 # 4. Medidas de Prevención en Entornos Informáticos
 
 <div class="mini-indice">
-  <h3>Navegación rápida</h3>
+  <h4>Navegación rápida:</h4>
   <ul>
     <li><a href="#generales">4.1 Prevención General</a></li>
     <li><a href="#ergonomia">4.2 Prevención Ergonómica</a></li>
@@ -27,113 +94,109 @@ title: Medidas de Prevención
   </ul>
 </div>
 
-## 4.1 Prevención General
+</div>
+
+<div id="generales" class="retraso-2 seccion-contenido" markdown="1">
+
+## 4.1. Prevención General
 
 <div class="caja-verde">
-Las medidas de prevención ayudan a evitar accidentes y proteger tanto los equipos como la información digital.
+La prevención general protege tanto a los trabajadores como a los equipos e información digital. Involucra seguridad física y medidas informáticas.
 </div>
 
-<p>
-En entornos informáticos, la prevención general no solo incluye seguridad física, sino también la protección de datos y sistemas. Mantener un entorno seguro reduce el riesgo de errores, pérdidas de información y ataques informáticos.
-</p>
-
 <ul>
-<li>Mantener el espacio de trabajo ordenado.</li>
-<li>Revisar cables, enchufes y conexiones regularmente.</li>
-<li>No sobrecargar regletas eléctricas.</li>
-<li>Apagar los equipos correctamente al terminar el día.</li>
-<li>Evitar líquidos cerca de dispositivos electrónicos.</li>
-<li>Instalar y mantener actualizado un antivirus confiable.</li>
-<li>Hacer copias de seguridad periódicas de archivos importantes.</li>
-<li>Utilizar contraseñas fuertes y únicas para cada sistema.</li>
-<li>Evitar descargar software de fuentes no confiables.</li>
-<li>Actualizar regularmente el sistema operativo y aplicaciones.</li>
+<li>Mantener el espacio ordenado.</li>
+<li>Revisar cables y enchufes.</li>
+<li>No sobrecargar regletas.</li>
+<li>Apagar correctamente los equipos.</li>
+<li>Instalar antivirus actualizado.</li>
+<li>Realizar copias de seguridad periódicas.</li>
+<li>Usar contraseñas seguras y únicas.</li>
+<li>No descargar software de fuentes no confiables.</li>
 </ul>
 
 <div class="destacado-texto">
-🔐 La seguridad informática protege tanto los datos como los equipos ante fallos o ataques.
+🔐 La seguridad informática es fundamental para proteger datos y evitar ataques.
 </div>
 
-<img src="imagenes/foto1.jpg">
+<img src="imagenes/foto1.jpg" class="img-estilo">
 
-## 4.2 Prevención Ergonómica
+</div>
+
+<div id="ergonomia" class="retraso-3 seccion-contenido" markdown="1">
+
+## 4.2. Prevención Ergonómica
 
 <div class="destacado-texto">
-💡 Una buena postura previene lesiones y fatiga.
+💡 Una postura correcta evita lesiones y fatiga.
 </div>
 
-<p>
-El trabajo frente a pantallas prolongadas puede causar dolor de espalda, cuello, muñecas y fatiga visual. Aplicar buenas prácticas ergonómicas es esencial para mantener la salud física.
-</p>
-
 <ul>
-<li>Colocar la pantalla a la altura de los ojos y a 50-70 cm de distancia.</li>
-<li>Mantener la espalda recta y apoyada en la silla.</li>
-<li>Brazos en ángulo de 90°, muñecas alineadas.</li>
-<li>Pies apoyados en el suelo o en reposapiés.</li>
-<li>Usar sillas y periféricos ergonómicos.</li>
-<li>Realizar pausas cortas cada 45-60 minutos.</li>
-<li>Ajustar brillo, contraste y usar filtros de luz azul para la pantalla.</li>
-<li>Evitar posturas forzadas o inclinaciones prolongadas.</li>
+<li>Pantalla a la altura de los ojos y a 50-70 cm de distancia.</li>
+<li>Espalda recta y pies apoyados.</li>
+<li>Brazos a 90° frente al teclado y ratón.</li>
+<li>Usar silla y periféricos ergonómicos.</li>
+<li>Realizar pausas activas cada 45-60 minutos.</li>
+<li>Ajustar brillo y usar filtro de luz azul.</li>
 </ul>
 
+<img src="imagenes/foto2.jpg" class="img-estilo">
+
+</div>
+
+<div id="ambiente" class="retraso-4 seccion-contenido" markdown="1">
+
+## 4.3. Prevención Ambiental
+
 <p>
-La ergonomía informática también ayuda a prevenir el síndrome del túnel carpiano y reduce la fatiga visual digital.
+El entorno físico influye en la eficiencia y seguridad de los equipos.
 </p>
 
-<img src="imagenes/foto2.jpg">
+<div class="grid-detalles" markdown="1">
 
-## 4.3 Prevención Ambiental
-
-<p>
-El entorno físico influye en la eficiencia y la durabilidad de los equipos. Factores como la iluminación, la temperatura y el ruido impactan tanto en el trabajador como en los dispositivos.
-</p>
-
-<div class="grid-detalles">
-<div class="tarjeta-detalle">
+<div class="tarjeta-detalle" markdown="1">
 <h3>💡 Iluminación</h3>
-Evitar reflejos en la pantalla y aprovechar luz natural.
+Evitar reflejos y aprovechar la luz natural.
 </div>
-<div class="tarjeta-detalle">
+
+<div class="tarjeta-detalle" markdown="1">
 <h3>🌡️ Temperatura</h3>
-Mantener entre 20ºC y 26ºC para confort y seguridad de equipos.
+Mantener entre 20ºC y 26ºC para confort y seguridad del hardware.
 </div>
-<div class="tarjeta-detalle">
+
+<div class="tarjeta-detalle" markdown="1">
 <h3>🔊 Ruido</h3>
-Reducir sonidos innecesarios para mejorar la concentración.
+Reducir distracciones para mejorar concentración.
 </div>
+
 </div>
 
 <ul>
-<li>Evitar sobrecalentamiento de CPU, GPU y fuentes de alimentación.</li>
-<li>Limpiar ventiladores y filtros para mantener flujo de aire.</li>
-<li>Usar sistemas de alimentación ininterrumpida (SAI) ante cortes de luz.</li>
-<li>Organizar cables para reducir riesgos de tropiezos y desconexiones.</li>
+<li>Evitar sobrecalentamiento de CPU/GPU.</li>
+<li>Limpiar ventiladores y filtros.</li>
+<li>Usar SAI ante cortes eléctricos.</li>
 </ul>
 
-<div class="destacado-texto">
-💻 Un ambiente controlado prolonga la vida útil de los equipos y mejora la productividad.
+<img src="imagenes/foto3.jpg" class="img-estilo">
+
 </div>
 
-<img src="imagenes/foto3.jpg">
+<div id="psico" class="retraso-4 seccion-contenido" markdown="1">
 
-## 4.4 Prevención Psicosocial
-
-<p>
-El bienestar mental es igual de importante que la salud física. En informática, el estrés, la sobrecarga de trabajo o la adicción digital pueden afectar la salud general y la eficiencia.
-</p>
+## 4.4. Prevención Psicosocial
 
 <ul>
-<li>Organizar tareas y establecer prioridades.</li>
-<li>Fomentar la colaboración y comunicación en equipo.</li>
-<li>Evitar jornadas prolongadas sin pausas.</li>
-<li>Controlar el tiempo frente a pantallas y desconectarse periódicamente.</li>
-<li>Promover hábitos de vida saludables: ejercicio, sueño y alimentación adecuada.</li>
-<li>Detectar y prevenir señales de estrés o agotamiento digital.</li>
+<li>Evitar estrés laboral.</li>
+<li>Organizar tareas y prioridades.</li>
+<li>Fomentar trabajo en equipo.</li>
+<li>Controlar tiempo frente a pantallas y desconectarse periódicamente.</li>
+<li>Pausas digitales y hábitos saludables.</li>
 </ul>
 
 <div class="destacado-texto">
-📵 Mantener un equilibrio entre trabajo y vida digital protege la salud física y mental.
+📵 Mantener un equilibrio entre vida digital y personal protege la salud física y mental.
 </div>
 
-<img src="imagenes/foto4.jpg">
+<img src="imagenes/foto4.jpg" class="img-estilo">
+
+</div>
