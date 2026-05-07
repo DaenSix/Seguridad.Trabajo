@@ -1,228 +1,156 @@
----
-layout: default
-title: Medidas de Prevención
----
-
-<style>
-
-  @keyframes fadeInUp {
-    0% { opacity: 0; transform: translateY(20px); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
-
-  .retraso-1 { animation: fadeInUp 0.8s ease-out forwards; }
-  .retraso-2 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.2s forwards; }
-  .retraso-3 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.4s forwards; }
-  .retraso-4 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.6s forwards; }
-
-  .mini-indice {
-    background: #ffffff;
-    border: 1px solid #e1e4e8;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    border-left: 5px solid #28a745;
-  }
-
-  .mini-indice h4 { margin-top: 0; }
-  .mini-indice ul { list-style: none; padding-left: 0; }
-  .mini-indice li { margin: 8px 0; }
-
-  .mini-indice a {
-    color: #28a745;
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .mini-indice a:hover {
-    text-decoration: underline;
-    color: #586069;
-  }
-
-  .caja-verde {
-    background: linear-gradient(135deg, #e6ffed 0%, #c3f0ca 100%);
-    border-left: 6px solid #28a745;
-    padding: 25px;
-    margin: 25px 0;
-    border-radius: 10px;
-  }
-
-  .img-estilo {
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    display: block;
-    margin: 30px auto;
-    max-width: 100%;
-  }
-
-  .grid-detalles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-
-  .tarjeta-detalle {
-    background: #ffffff;
-    border: 1px solid #d1d5da;
-    padding: 20px;
-    border-radius: 10px;
-    border-top: 5px solid #28a745;
-  }
-
-  .seccion-contenido { margin-bottom: 50px; }
-
-  .destacado-texto {
-    background-color: #fff3cd;
-    padding: 15px;
-    border-radius: 6px;
-    border-left: 4px solid #ffc107;
-    margin: 20px 0;
-  }
-
-  /* BOTONES */
-  .nav-botones {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    margin-top: 50px;
-    border-top: 2px solid #eaecef;
-    padding-top: 30px;
-  }
-
-  .btn-nav {
-    flex: 1;
-    padding: 14px;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .anterior { background-color: #0366d6; }
-  .volver { background-color: #6a737d; }
-  .siguiente { background-color: #f57c00; }
-
-</style>
-
-<div class="retraso-1">
-
-  <h1>4. Medidas de Prevención en Entornos Informáticos</h1>
-
-  <!-- MENÚ -->
-  <div class="mini-indice">
-    <h4>Navegación rápida:</h4>
-    <ul>
-      <li><a href="#generales">4.1 Prevención General</a></li>
-      <li><a href="#ergonomia">4.2 Prevención Ergonómica</a></li>
-      <li><a href="#ambiente">4.3 Prevención Ambiental</a></li>
-      <li><a href="#psico">4.4 Prevención Psicosocial</a></li>
-    </ul>
-  </div>
-
-</div>
-
-<!-- 4.1 -->
-<div id="generales" class="retraso-2 seccion-contenido">
-
-  <h2>4.1. Prevención General</h2>
-
-  <div class="caja-verde">
-    La prevención general protege tanto a los trabajadores como a los equipos e información digital.
-  </div>
-
-  <ul>
-    <li>Mantener el espacio ordenado.</li>
-    <li>Revisar cables y enchufes.</li>
-    <li>No sobrecargar regletas.</li>
-    <li>Apagar correctamente los equipos.</li>
-    <li>Instalar antivirus actualizado.</li>
-    <li>Realizar copias de seguridad periódicas.</li>
-    <li>Usar contraseñas seguras y únicas.</li>
-    <li>No descargar software de fuentes no confiables.</li>
-  </ul>
-
-  <div class="destacado-texto">
-    🔐 La seguridad informática es fundamental.
-  </div>
-
-  <img src="PICTURE1.jpg" class="img-estilo">
-
-</div>
-
-<!-- 4.2 -->
-<div id="ergonomia" class="retraso-3 seccion-contenido">
-
-  <h2>4.2. Prevención Ergonómica</h2>
-
-  <div class="destacado-texto">
-    💡 Una postura correcta evita lesiones.
-  </div>
-
-  <ul>
-    <li>Pantalla a la altura de los ojos.</li>
-    <li>Espalda recta.</li>
-    <li>Brazos a 90°.</li>
-    <li>Pausas cada 45-60 min.</li>
-  </ul>
-
-  <img src="PICTURE2.jpeg" class="img-estilo">
-
-</div>
-
-<!-- 4.3 -->
-<div id="ambiente" class="retraso-4 seccion-contenido">
-
-  <h2>4.3. Prevención Ambiental</h2>
-
-  <div class="grid-detalles">
-
-    <div class="tarjeta-detalle">
-      <h3>💡 Iluminación</h3>
-      <p>Evitar reflejos.</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Medidas de Prevención</title>
+  <!-- Enlazamos al archivo CSS único del repositorio de Seguridad -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Menú lateral común del repositorio de Seguridad -->
+  <nav>
+    <h3>ÍNDICE</h3>
+    <a href="index.html" class="autor-joaquin">Inicio</a>
+    <a href="riesgos-fisicos.html" class="autor-joaquin">1. Riesgos físicos</a>
+    <a href="riesgos-entorno.html" class="autor-joaquin">2. Riesgos del entorno</a>
+    <a href="riesgos-psicosociales.html" class="autor-daniel">3. Riesgos psicosociales</a>
+    <a href="prevencion.html" class="autor-miguel">4. Medidas de prevención</a>
+    <a href="referencias-autores.html" class="autor-general">5. Referencias y Autores</a>
+    
+    <div class="leyenda">
+      <h4>Asignación de Tareas</h4>
+      <div class="autor-item">
+        <div class="circulo bg-joaquin"></div>
+        <span>Joaquín (Índice, Puntos 1 y 2)</span>
+      </div>
+      <div class="autor-item">
+        <div class="circulo bg-daniel"></div>
+        <span>Daniel (Punto 3)</span>
+      </div>
+      <div class="autor-item">
+        <div class="circulo bg-miguel"></div>
+        <span>Miguel (Punto 4)</span>
+      </div>
+      <div class="autor-item">
+        <div class="circulo bg-general"></div>
+        <span>Colaboración (Punto 5)</span>
+      </div>
     </div>
+  </nav>
 
-    <div class="tarjeta-detalle">
-      <h3>🌡️ Temperatura</h3>
-      <p>Entre 20ºC y 26ºC.</p>
+  <main>
+    <div>
+      <div class="retraso-1">
+        <h1>4. Medidas de Prevención en Entornos Informáticos</h1>
+
+        <!-- MENÚ INTERNO -->
+        <div class="mini-indice" style="border-left-color: #28a745;">
+          <h4>Navegación rápida:</h4>
+          <ul>
+            <li><a href="#generales" style="color: #28a745;">4.1 Prevención General</a></li>
+            <li><a href="#ergonomia" style="color: #28a745;">4.2 Prevención Ergonómica</a></li>
+            <li><a href="#ambiente" style="color: #28a745;">4.3 Prevención Ambiental</a></li>
+            <li><a href="#psico" style="color: #28a745;">4.4 Prevención Psicosocial</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 4.1 -->
+      <div id="generales" class="retraso-2 seccion-contenido">
+        <h2>4.1. Prevención General</h2>
+
+        <!-- Caja adaptada a color verde -->
+        <div class="caja-azul" style="background: linear-gradient(135deg, #e6ffed 0%, #c3f0ca 100%); border-left-color: #28a745; color: #155724;">
+          La prevención general protege tanto a los trabajadores como a los equipos e información digital.
+        </div>
+
+        <ul>
+          <li>Mantener el espacio ordenado.</li>
+          <li>Revisar cables y enchufes.</li>
+          <li>No sobrecargar regletas.</li>
+          <li>Apagar correctamente los equipos.</li>
+          <li>Instalar antivirus actualizado.</li>
+          <li>Realizar copias de seguridad periódicas.</li>
+          <li>Usar contraseñas seguras y únicas.</li>
+          <li>No descargar software de fuentes no confiables.</li>
+        </ul>
+
+        <!-- Destacado amarillo adaptado -->
+        <div class="caja-azul" style="background-color: #fff3cd; background-image: none; border: 1px solid #ffea8a; border-left: 6px solid #ffc107; color: #856404; padding: 15px;">
+          🔐 La seguridad informática es fundamental.
+        </div>
+
+        <img src="PICTURE1.jpg" class="img-estilo" alt="Medidas de prevención general">
+      </div>
+
+      <!-- 4.2 -->
+      <div id="ergonomia" class="retraso-3 seccion-contenido">
+        <h2>4.2. Prevención Ergonómica</h2>
+
+        <div class="caja-azul" style="background-color: #fff3cd; background-image: none; border: 1px solid #ffea8a; border-left: 6px solid #ffc107; color: #856404; padding: 15px;">
+          💡 Una postura correcta evita lesiones.
+        </div>
+
+        <ul>
+          <li>Pantalla a la altura de los ojos.</li>
+          <li>Espalda recta.</li>
+          <li>Brazos a 90°.</li>
+          <li>Pausas cada 45-60 min.</li>
+        </ul>
+
+        <img src="PICTURE2.jpeg" class="img-estilo" alt="Postura ergonómica correcta">
+      </div>
+
+      <!-- 4.3 -->
+      <div id="ambiente" class="retraso-4 seccion-contenido">
+        <h2>4.3. Prevención Ambiental</h2>
+
+        <div class="grid-detalles">
+          <div class="tarjeta-detalle" style="border-top-color: #28a745;">
+            <h3>💡 Iluminación</h3>
+            <p>Evitar reflejos.</p>
+          </div>
+
+          <div class="tarjeta-detalle" style="border-top-color: #28a745;">
+            <h3>🌡️ Temperatura</h3>
+            <p>Entre 20ºC y 26ºC.</p>
+          </div>
+
+          <div class="tarjeta-detalle" style="border-top-color: #28a745;">
+            <h3>🔊 Ruido</h3>
+            <p>Reducir distracciones.</p>
+          </div>
+        </div>
+
+        <img src="PICTURE3.jpg" class="img-estilo" alt="Prevención ambiental">
+      </div>
+
+      <!-- 4.4 -->
+      <div id="psico" class="retraso-4 seccion-contenido">
+        <h2>4.4. Prevención Psicosocial</h2>
+
+        <ul>
+          <li>Evitar estrés.</li>
+          <li>Organizar tareas.</li>
+          <li>Trabajo en equipo.</li>
+        </ul>
+
+        <div class="caja-azul" style="background-color: #fff3cd; background-image: none; border: 1px solid #ffea8a; border-left: 6px solid #ffc107; color: #856404; padding: 15px;">
+          📵 Equilibrio digital = salud.
+        </div>
+
+        <img src="imagenes/foto4.jpg" class="img-estilo" alt="Prevención psicosocial">
+      </div>
+
+      <hr>
+
+      <!-- BOTONES -->
+      <div class="nav-botones">
+        <a href="riesgos-entorno.html" class="btn-nav anterior" style="background-color: #0366d6;">⬅️ Anterior</a>
+        <a href="index.html" class="btn-nav volver" style="background-color: #6a737d;">🏠 Inicio</a>
+        <a href="referencias-autores.html" class="btn-nav siguiente" style="background-color: #f57c00;">Siguiente ➡️</a>
+      </div>
     </div>
-
-    <div class="tarjeta-detalle">
-      <h3>🔊 Ruido</h3>
-      <p>Reducir distracciones.</p>
-    </div>
-
-  </div>
-
-  <img src="PICTURE3.jpg" class="img-estilo">
-
-</div>
-
-<!-- 4.4 -->
-<div id="psico" class="retraso-4 seccion-contenido">
-
-  <h2>4.4. Prevención Psicosocial</h2>
-
-  <ul>
-    <li>Evitar estrés.</li>
-    <li>Organizar tareas.</li>
-    <li>Trabajo en equipo.</li>
-  </ul>
-
-  <div class="destacado-texto">
-    📵 Equilibrio digital = salud.
-  </div>
-
-  <img src="imagenes/foto4.jpg" class="img-estilo">
-
-</div>
-
-<hr>
-
-<!-- BOTONES -->
-<div class="nav-botones">
-  <a href="riesgos-entorno.html" class="btn-nav anterior">⬅️ Anterior</a>
-  <a href="index.html" class="btn-nav volver">🏠 Inicio</a>
-  <a href="referencias-autores.html" class="btn-nav siguiente">Siguiente ➡️</a>
-</div>
+  </main>
+</body>
+</html>
